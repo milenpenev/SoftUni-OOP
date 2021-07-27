@@ -40,3 +40,4 @@ class Profile:
 
 correct_profile = Profile("Username", "Passw0rd")
 print(correct_profile)
+print()
