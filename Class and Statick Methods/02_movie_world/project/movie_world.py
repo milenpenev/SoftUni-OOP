@@ -62,6 +62,6 @@ class MovieWorld:
         result = ''
         customers = '\n'.join([c.__repr__ for c in self.customers])
         dvds = '\n'.join([d.__repr__ for d in self.dvds])
-        result += customers
+        result += f"{customers}\n"
         result += dvds
         return result
